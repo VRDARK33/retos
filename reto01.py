@@ -120,3 +120,14 @@ b = 9 # 1001
       # 0001
 
 print(a&b)
+
+"""
+ * DIFICULTAD EXTRA (opcional):
+ * Crea un programa que imprima por consola todos los números comprendidos
+ * entre 10 y 55 (incluidos), pares, y que no son ni el 16 ni múltiplos de 3.
+"""
+
+for numeros in range(10, 56):
+      if numeros % 2 == 0 and numeros != 16 and  numeros % 3 !=0:
+            print(numeros)
+
